@@ -1,0 +1,67 @@
+header{
+background-image: url('Image1.html');
+background-size: cover;
+height: 400px;
+
+
+
+}
+
+.texte{
+display: flex;
+text-align: center;
+color: white;
+flex-direction: column;
+}
+
+
+.haut {
+
+display: flex;
+flex-direction: column;
+
+
+
+}
+
+.souligner {
+
+color: orange;
+font-size: 22px;
+
+
+}
+ul{
+list-style-type: none;
+
+}
+aside {
+display: flex;
+justify-content: right;
+
+
+
+}
+i{
+margin-right: 10px;
+
+
+
+
+
+}
+p {
+
+text-align: justify;
+
+
+
+}
+
+
+
+
+
+
+
+
