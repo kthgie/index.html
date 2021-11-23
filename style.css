@@ -7,18 +7,22 @@ height: 400px;
 
 }
 
+@media (max-width:375)  {
+    
+
+    
+}
+
 .texte{
 display: flex;
-text-align: center;
-color: white;
-flex-direction: column;
+justify-items: center;
 }
 
 
 .haut {
 
 display: flex;
-flex-direction: column;
+justify-items:flex-start ;
 
 
 
@@ -42,22 +46,20 @@ justify-content: right;
 
 
 }
+
+
 i{
 margin-right: 10px;
 
+}
 
 
+.bouge{
+display: flex;
+justify-items: flex-end;
 
 
 }
-p {
-
-text-align: justify;
-
-
-
-}
-
 
 
 

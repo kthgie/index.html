@@ -1,0 +1,63 @@
+header{
+display: flex;
+justify-content: space-around;
+background-color:#A63740;
+color: white;
+
+    
+}
+
+.background{
+background-image: url(Grande_Image.html);
+
+
+
+
+}
+
+.Titre{
+display: flex;
+justify-content: center;
+color: white;
+
+
+}
+.Synopsis{
+
+    display: flex;
+    justify-content: space-around;
+    color: white;  
+}
+.Paragraphe{
+
+display: flex;
+justify-content: center;
+
+color: white;
+}
+
+.Amng{
+display: flex;
+justify-content: space-around;
+
+color: white;
+
+}
+.categorie{
+
+display: flex;
+justify-content: space-between;
+background-color: #21252A;
+color: white;
+
+
+}
+.aligner{
+   display: flex; 
+justify-content: space-around;
+
+
+}
+
+
+
