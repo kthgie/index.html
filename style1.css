@@ -3,31 +3,33 @@ display: flex;
 justify-content: space-around;
 background-color:#A63740;
 color: white;
+height: 80px;
 
     
 }
 
 .background{
-background-image: url(Grande_Image.html);
-
-
-
-
+background: linear-gradient(90deg,red, black);
+display: flex;
+justify-content: space-between;
 }
+
+
 
 .Titre{
 display: flex;
 justify-content: center;
 color: white;
 
-
 }
-.Synopsis{
 
+.Synopsis {
     display: flex;
     justify-content: space-around;
     color: white;  
 }
+
+
 .Paragraphe{
 
 display: flex;
@@ -38,26 +40,74 @@ color: white;
 
 .Amng{
 display: flex;
-justify-content: space-around;
+justify-content: space-evenly;
 
 color: white;
 
 }
 .categorie{
 
-display: flex;
-justify-content: space-between;
+height: 80px;
+background-color: #21252A;
+color: white;
+
+
+
+}
+.liste{
+
+list-style: none;
+display: contents;
+
+
+
+}
+
+.aligner{
+   display: flex; 
+justify-content: center;
 background-color: #21252A;
 color: white;
 
 
 }
-.aligner{
-   display: flex; 
-justify-content: space-around;
+.popup{
+flex: 1; 
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.croix{
+
+font-size: 2em;
+
+}
+.Play{
+
+    font-size: 3em;
+  
+}
+.Plus{
+
+    font-size: 2.2em;
 
 
 }
+li{
+
+display: inline;
+margin: : inherit;
+padding: 10px
 
 
+}
+.presentation{
+
+margin-top: 300px;
+
+}
+
+.categorie>ul li:hover {border-block-end-style: inset} 
 
